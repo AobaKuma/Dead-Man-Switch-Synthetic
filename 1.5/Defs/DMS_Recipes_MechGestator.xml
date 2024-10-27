@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  
+  <RecipeDef ParentName="BaseMechanoidResurrectionRecipe">
+    <defName>DMS_ResurrectSynthetic</defName>
+    <label>resurrect synthetic automatroid</label>
+    <description>Resurrect a synth. So long as the synth's body is not completely destroyed, it can be resurrected.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Corpses</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Artifuscle</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Corpse_DMS_Mech_Armiman</li>
+        <li>Corpse_DMS_Mech_Lady</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+
+  <RecipeDef Name="DMS_SyntheticRecipe" ParentName="BaseMechanoidRecipe" Abstract="True">
+    <gestationCycles>2</gestationCycles>
+    <researchPrerequisite>DMS_Hybird</researchPrerequisite>
+    <recipeUsers>
+      <li>DMS_MechGestatorSynthetic</li>
+    </recipeUsers>
+  </RecipeDef>
+  <!-- 軍人 -->
+  <RecipeDef ParentName="DMS_SyntheticRecipe">
+    <defName>DMS_Make_Armiman</defName>
+    <label>Gestate Armiman Automatroid</label>
+    <description>Gestate an Armiman Automatroid.</description>
+    <products>
+      <DMS_Mech_Armiman>1</DMS_Mech_Armiman>
+    </products>
+    <gestationCycles>3</gestationCycles>
+    <descriptionHyperlinks>
+      <ThingDef>DMS_Mech_Armiman</ThingDef>
+    </descriptionHyperlinks>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Artifuscle</li>
+          </thingDefs>
+        </filter>
+        <count>120</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentStamped</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neurocomputer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+  </RecipeDef>
+
+  <!-- 女士 -->
+  <RecipeDef ParentName="DMS_SyntheticRecipe">
+    <defName>DMS_Make_Lady</defName>
+    <label>Gestate Lady</label>
+    <description>Gestate a Lady Synth.</description>
+    <products>
+      <DMS_Mech_Lady>1</DMS_Mech_Lady>
+    </products>
+    <descriptionHyperlinks>
+      <ThingDef>DMS_Mech_Lady</ThingDef>
+    </descriptionHyperlinks>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Artifuscle</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentStamped</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neurocomputer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+  </RecipeDef>
+</Defs>

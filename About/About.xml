@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>The Dead Man's Switch - Synthetic</name>
+	<modIconPath IgnoreIfNoMatchingField="True">UI/NaraLogo</modIconPath>
+  	<author>AobaKuma</author>
+    <supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<packageId>Aoba.DeadManSwitch.Synthetic</packageId>
+    <modDependencies>
+        <li>
+			<packageId>Aoba.DeadManSwitch.Core</packageId>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3121742525</steamWorkshopUrl>
+			<displayName>Dead Man Switch</displayName>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Aoba.DeadManSwitch.Core</li>
+  	</loadAfter>
+	<description>Biological evolution is an optimization process driven by survival. It may not be the best, but it must be the most adaptable to the current environment.\n\n We may not yet understand the tacit understanding between biological structures that has lasted billions of years, but some superficial imitation is enough to bring a lot of benefits in the field of robotics.</description>
+</ModMetaData>

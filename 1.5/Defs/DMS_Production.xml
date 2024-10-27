@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <ThingDef Name="DMS_SyntheticConstructorFormingBase" ParentName="MechGestatorFormingBase">
+    <defName>DMS_SyntheticConstructorForming</defName>
+    <graphicData>
+      <texPath>Things/Building/SynthBuilder_Glass</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderParameters>
+        <_MistOpacityTex>/Things/Building/SynthBuilder_Glass</_MistOpacityTex>
+        <_ScanOffset>-0.11</_ScanOffset>
+        <_ScanScale>12.5</_ScanScale>
+      </shaderParameters>
+      <drawSize>(4, 4)</drawSize>
+    </graphicData>
+  </ThingDef> 
+
+  <ThingDef ParentName="DMS_SyntheticConstructorFormingBase">
+    <defName>DMS_SyntheticConstructorCycleComplete</defName>
+    <graphicData>
+      <color>(1, 0.36, 0)</color>
+    </graphicData>
+  </ThingDef>
+
+  <!-- Mech gestator - Formed -->
+  <ThingDef ParentName="DMS_SyntheticConstructorFormingBase">
+    <defName>DMS_SyntheticConstructorFormed</defName>
+    <graphicData>
+      <color>(0.2, 1, 0.15)</color>
+    </graphicData>
+  </ThingDef>
+
+  <WorkGiverDef>
+    <defName>DMS_DoBillsSyntheticConstructor</defName>
+    <label>Make things at Synthetic constructor.</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Smithing</workType>
+    <priorityInType>200</priorityInType>
+    <fixedBillGiverDefs>
+      <li>DMS_MechGestatorSynthetic</li>
+    </fixedBillGiverDefs>
+    <verb>work at</verb>
+    <gerund>working at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+
+  <ThingDef ParentName="MechGestatorBase">
+    <defName>DMS_MechGestatorSynthetic</defName>
+    <label>Synthetic Constructor</label>
+    <description>A massive piece of industrial equipment used to assemble Synthetic forms.</description>
+		<designationCategory>DMS_Category</designationCategory>
+    <graphicData>
+      <texPath>Things/Building/SynthBuilder_Base</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.25,3.25)</drawSize>
+      <shadowData>
+        <volume>(2, 2, 2)</volume>
+      </shadowData>
+    </graphicData>
+    <uiIconPath>Things/Building/SynthBuilder_Icon</uiIconPath>
+    <uiIconScale>2</uiIconScale>
+    <interactionCellOffset>(0,0,2)</interactionCellOffset>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>20000</WorkToBuild>
+      <Mass>50</Mass>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <size>(2,2)</size>
+    <costList>
+      <Steel>500</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <researchPrerequisites>
+      <li>DMS_Automatroid</li>
+    </researchPrerequisites>
+    <building>
+      <barDrawData>
+        <north>
+          <preRotationOffset>(0, 0)</preRotationOffset>
+          <size>(0.0, 0.0)</size>
+        </north>
+        <south>
+          <preRotationOffset>(0, 0)</preRotationOffset>
+          <size>(0.0, 0.0)</size>
+        </south>
+        <east>
+          <preRotationOffset>(0, 0)</preRotationOffset>
+          <size>(0.0, 0.0)</size>
+        </east>
+        <west>
+          <preRotationOffset>(0, 0)</preRotationOffset>
+          <size>(0.0, 0.0)</size>
+        </west>
+      </barDrawData>
+      <formingGraphicData>
+        <texPath>Things/mechForming</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(1.65,1.65)</drawSize>
+      </formingGraphicData>
+      <formingMechBobSpeed>0.0005</formingMechBobSpeed>
+      <formingMechYBobDistance>0.05</formingMechYBobDistance>
+      <formingMechPerRotationOffset>
+        <li>(0, 0, 0.225)</li>
+        <li>(0, 0, 0.225)</li>
+        <li>(0, 0, 0.225)</li>
+        <li>(0, 0, 0.225)</li>
+      </formingMechPerRotationOffset>
+      <mechGestatorCylinderGraphic>
+        <texPath>Things/Building/SynthBuilder_Glass</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>(4,4)</drawSize>
+        <shaderType>Transparent</shaderType>
+      </mechGestatorCylinderGraphic>
+      <mechGestatorTopGraphic>
+        <texPath>Things/Building/SynthBuilder_Top</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>(4, 4)</drawSize>
+      </mechGestatorTopGraphic>
+      <gestatorFormingMote>
+        <north>DMS_SyntheticConstructorForming</north>
+        <east>DMS_SyntheticConstructorForming</east>
+        <west>DMS_SyntheticConstructorForming</west>
+        <south>DMS_SyntheticConstructorForming</south>
+      </gestatorFormingMote>
+      <gestatorCycleCompleteMote>
+        <north>DMS_SyntheticConstructorCycleComplete</north>
+        <east>DMS_SyntheticConstructorCycleComplete</east>
+        <west>DMS_SyntheticConstructorCycleComplete</west>
+        <south>DMS_SyntheticConstructorCycleComplete</south>
+      </gestatorCycleCompleteMote>
+      <gestatorFormedMote>
+        <north>DMS_SyntheticConstructorFormed</north>
+        <east>DMS_SyntheticConstructorFormed</east>
+        <west>DMS_SyntheticConstructorFormed</west>
+        <south>DMS_SyntheticConstructorFormed</south>
+      </gestatorFormedMote>
+    </building>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <recipes>
+      <li>DMS_ResurrectSynthetic</li>
+    </recipes>
+    <comps>
+      <li MayRequire="VanillaExpanded.VFEA" Class="VFEAncients.CompProperties_SolarPowerUp"/>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>500</basePowerConsumption>
+        <idlePowerDraw>50</idlePowerDraw>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>	
