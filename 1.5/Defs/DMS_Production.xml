@@ -72,11 +72,13 @@
     </statBases>
     <size>(2,2)</size>
     <costList>
-      <Steel>500</Steel>
-      <ComponentIndustrial>6</ComponentIndustrial>
+      <Steel>250</Steel>
+      <Plasfiber>80</Plasfiber>
+      <ComponentStamped>6</ComponentStamped>
+      <Neurocomputer>1</Neurocomputer>
     </costList>
     <researchPrerequisites>
-      <li>DMS_Automatroid</li>
+      <li>DMS_Artifuscle</li>
     </researchPrerequisites>
     <building>
       <barDrawData>
@@ -98,7 +100,7 @@
         </west>
       </barDrawData>
       <formingGraphicData>
-        <texPath>Things/mechForming</texPath>
+        <texPath>Things/Synthroid/SynthForming</texPath>
         <graphicClass>Graphic_Single</graphicClass>
         <drawSize>(1.65,1.65)</drawSize>
       </formingGraphicData>
