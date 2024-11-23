@@ -38,6 +38,7 @@
       <li>DMS_MechGestatorSynthetic</li>
     </recipeUsers>
   </RecipeDef>
+  
   <!-- 軍人 -->
   <RecipeDef ParentName="DMS_SyntheticRecipe">
     <defName>DMS_Make_Armiman</defName>
