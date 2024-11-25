@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    
+  <!-- lady -->
+  <ThingDef ParentName="BaseAutomatroidHumanRace">
+    <defName>DMS_Mech_Maiden</defName>
+    <label>Maiden</label>
+    <description>一種家居服務用的仿生合成人，雖然並沒有甚麼稱得上亮眼的性能但其足夠接近人類的外貌與反應就足以獲取人類的信任。\n\n雖然外觀與使用的技術大致相同，但這架後世仿製生產型號並沒有如同其理論上的原型來的靈動。 \n\n根據奈良重工的紀錄，在人類還在地球上的時代，相比於用於作戰用途的MG-1，MG-2C "Maiden"起初的設計與成本考量完全是面向民用市場的，本意是透過民間市場來讓成本昂貴的軍用人工肌腱能透過更大規模的應用來降低生產成本。但很顯然的太過於接近人類外貌的設計與複雜的情感表達使得大多數人認為她們應當具有人性，因此大量生產的MG-2C很快的成為了影響聯合國人工智能人權化法案通過的主要因素。而出於當時地球上的局勢穩定性與日益激化的矛盾問題，奈良重工也很快的停止生產後續的機型。</description>
+    <thingClass>DMS.HumanlikeMech</thingClass>
+    <uiIconPath>Things/Synthroid/Maiden/icon</uiIconPath>
+    <statBases>
+      <MarketValue>1000</MarketValue>
+      <MoveSpeed>5.5</MoveSpeed>
+      <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+      <EMPResistance MayRequire="Ludeon.Rimworld.Biotech">3</EMPResistance>                                             <!--EMP抵抗力-->
+      <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">1</BandwidthCost>
+      <ControlTakingTime MayRequire="Ludeon.Rimworld.Biotech">30</ControlTakingTime>
+    </statBases>
+    <tools>
+      <li>
+        <label>left fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right fist</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5.2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+    </tools>
+    <race>
+      <renderTree>HumanlikeMech</renderTree>
+      <thinkTreeMain>DMS_HumanlikeMech</thinkTreeMain>
+      <makesFootprints>true</makesFootprints>
+      <body>DMS_Synthroid</body>
+      <mechEnabledWorkTypes>
+        <li>Cleaning</li>
+        <li>PlantCutting</li>
+        <li>Growing</li>
+        <li>Firefighter</li>
+        <li>Doctor</li>
+      </mechEnabledWorkTypes>
+      <lifeStageAges Inherit="False">
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Legionary_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Legionary_Death</soundDeath>
+          <soundCall>Pawn_Mech_Legionary_Call</soundCall>
+        </li>
+        <li>
+          <def>MechanoidFullyFormed</def>
+          <minAge>100</minAge>
+          <soundWounded>Pawn_Mech_Legionary_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Legionary_Death</soundDeath>
+          <soundCall>Pawn_Mech_Legionary_Call</soundCall>
+        </li>
+      </lifeStageAges>
+    </race>
+    <comps>
+      <li Class="DMS.CompProperties_MechApparel">
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="DMS.TurretMannableExtension"/>
+      <li Class="DMS.HumanlikeMechExtension">
+        <bodyTypeOverride>Female</bodyTypeOverride>
+        <headTypeOverride>Female_AveragePointy</headTypeOverride>
+        <headGraphic>
+          <texPath>Things/Synthroid/Maiden/head</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.4</drawSize>
+        </headGraphic>
+        <headOffset>(0,0,-0.05)</headOffset>
+      </li>
+      <li Class="DMS.MechWeaponExtension">
+        <EnableWeaponFilter>false</EnableWeaponFilter>
+        <EnableTechLevelFilter>true</EnableTechLevelFilter>
+        <UsableTechLevels>
+          <li>Industrial</li>
+          <li>Spacer</li>
+        </UsableTechLevels>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BaseAutomatroidKind">
+    <defName>DMS_Mech_Maiden</defName>
+    <label>maiden</label>
+    <race>DMS_Mech_Maiden</race>
+    <combatPower>5</combatPower>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Synthroid/Maiden/body</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.4</drawSize>
+          <shadowData>
+            <volume>(0.6, 0.8, 0.6)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Synthroid/Maiden/body</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.4</drawSize>
+          <shadowData>
+            <volume>(0.6, 0.8, 0.6)</volume>
+          </shadowData>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <weaponMoney>9999~9999</weaponMoney>
+    <weaponTags>
+      <li>Pistol</li>
+    </weaponTags>
+    <techHediffsChance>1</techHediffsChance>
+    <techHediffsMoney>9999~9999</techHediffsMoney>
+    <controlGroupPortraitZoom>1.2</controlGroupPortraitZoom>
+  </PawnKindDef>
+
+  <RecipeDef ParentName="DMS_HumanoidMechanoidRecipe" Abstract="true">
+    <defName>DMS_Make_Maiden</defName>
+    <label>Gestate maiden</label>
+    <description>Gestate a maiden mechanoid.</description>
+    <products>
+      <DMS_Mech_Maiden>1</DMS_Mech_Maiden>
+    </products>
+    <researchPrerequisite>DMS_Hybird</researchPrerequisite>
+    <gestationCycles>1</gestationCycles>
+    <descriptionHyperlinks>
+      <ThingDef>DMS_Mech_Maiden</ThingDef>
+    </descriptionHyperlinks>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Artifuscle</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neurocomputer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+  </RecipeDef>
+</Defs>

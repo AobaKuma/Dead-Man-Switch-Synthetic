@@ -79,6 +79,7 @@
     <!-- 一種技術上十分成熟的軍用作戰機兵，能夠兼容大部分人類裝備並操作重型武器。 雖然該技術是從殖民艦隊所流出的但奇怪的是他們似乎並沒有將其投入在殖民活動中。 -->
     <description>A technically very mature military combat robot, capable of being compatible with most human equipment and operating heavy weapons. Although this technology was leaked from the colonial fleet, strangely they did not seem to invest it in colonial activities.</description>
     <thingClass>DMS.HumanlikeMech</thingClass>    
+    <uiIconPath>Things/Synthroid/Armiman/icon</uiIconPath>
     <statBases>
       <StaggerDurationFactor>0.15</StaggerDurationFactor>
       <MoveSpeed>4.8</MoveSpeed>                                                              <!--移動速度-->
@@ -124,7 +125,7 @@
         <bodyTypeOverride>Hulk</bodyTypeOverride>
         <headTypeOverride>Male_AverageWide</headTypeOverride>
         <headGraphic>
-          <texPath>Things/Synthroid/Head</texPath>
+          <texPath>Things/Synthroid/Armiman/head</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
           <drawSize>1</drawSize>
         </headGraphic>
@@ -162,7 +163,7 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Synthroid/Armiman</texPath>
+          <texPath>Things/Synthroid/Armiman/body</texPath>
           <shaderType>CutoutComplex</shaderType>
           <graphicClass>Graphic_Multi</graphicClass>
           <drawSize>1.75</drawSize>
