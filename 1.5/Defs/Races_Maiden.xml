@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
     
-  <!-- lady -->
+  <!-- Maiden -->
   <ThingDef ParentName="BaseAutomatroidHumanRace">
     <defName>DMS_Mech_Maiden</defName>
     <label>Maiden</label>
@@ -18,7 +18,7 @@
       <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">1</BandwidthCost>
       <ControlTakingTime MayRequire="Ludeon.Rimworld.Biotech">30</ControlTakingTime>
     </statBases>
-    <tools>
+    <tools Inherit="false">
       <li>
         <label>left fist</label>
         <capacities>
@@ -59,12 +59,18 @@
       <thinkTreeMain>DMS_HumanlikeMech</thinkTreeMain>
       <makesFootprints>true</makesFootprints>
       <body>DMS_Synthroid</body>
+      <mechFixedSkillLevel>6</mechFixedSkillLevel>
       <mechEnabledWorkTypes>
         <li>Cleaning</li>
-        <li>PlantCutting</li>
-        <li>Growing</li>
         <li>Firefighter</li>
+        <li>Crafting</li>
+        <li>Tailoring</li>
         <li>Doctor</li>
+        <li>Handling</li>
+        <li MayRequire="orion.hospitality">Diplomat</li>
+        <li MayRequire="frozensnowfox.complexjobs">FSFRearming</li>
+        <li MayRequire="frozensnowfox.complexjobs">FSFCremating</li>
+        <li MayRequire="frozensnowfox.complexjobs">FSFDeliver</li>
       </mechEnabledWorkTypes>
       <lifeStageAges Inherit="False">
         <li>

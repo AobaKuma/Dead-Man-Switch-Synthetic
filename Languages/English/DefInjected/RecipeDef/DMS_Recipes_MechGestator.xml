@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Gestate Armiman Automatroid -->
+  <DMS_Make_Armiman.label>Gestate Armiman Automatroid</DMS_Make_Armiman.label>
+  <!-- EN: Gestate an Armiman Automatroid. -->
+  <DMS_Make_Armiman.description>Gestate an Armiman Automatroid.</DMS_Make_Armiman.description>
+  <!-- EN: Gestating mech. -->
+  <DMS_Make_Armiman.jobString>Gestating mech.</DMS_Make_Armiman.jobString>
+  
+  <!-- EN: Gestate Lady -->
+  <DMS_Make_Lady.label>Gestate Lady</DMS_Make_Lady.label>
+  <!-- EN: Gestate a Lady Synth. -->
+  <DMS_Make_Lady.description>Gestate a Lady Synth.</DMS_Make_Lady.description>
+  <!-- EN: Gestating mech. -->
+  <DMS_Make_Lady.jobString>Gestating mech.</DMS_Make_Lady.jobString>
+  
+  <!-- EN: Gestate Maiden -->
+  <DMS_Make_Maiden.label>Gestate Maiden</DMS_Make_Maiden.label>
+  <!-- EN: Gestate a Maiden Synth. -->
+  <DMS_Make_Maiden.description>Gestate a Maiden Synth.</DMS_Make_Maiden.description>
+  <!-- EN: Gestating mech. -->
+  <DMS_Make_Maiden.jobString>Gestating mech.</DMS_Make_Maiden.jobString>
+  
+  <!-- EN: resurrect synthetic automatroid -->
+  <DMS_ResurrectSynthetic.label>resurrect synthetic automatroid</DMS_ResurrectSynthetic.label>
+  <!-- EN: Resurrect a synth. So long as the synth's body is not completely destroyed, it can be resurrected. -->
+  <DMS_ResurrectSynthetic.description>Resurrect a synth. So long as the synth's body is not completely destroyed, it can be resurrected.</DMS_ResurrectSynthetic.description>
+  <!-- EN: Resurrecting mech. -->
+  <DMS_ResurrectSynthetic.jobString>Resurrecting mech.</DMS_ResurrectSynthetic.jobString>
+  
+</LanguageData>

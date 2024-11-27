@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Armiman -->
+  <DMS_Mech_Armiman.label>军人</DMS_Mech_Armiman.label>
+  <!-- EN: A technically very mature military combat robot, capable of being compatible with most human equipment and operating heavy weapons. Although this technology was leaked from the colonial fleet, strangely they did not seem to invest it in colonial activities. -->
+  <DMS_Mech_Armiman.description>一种技术上十分成熟的量产型军用合成人，能够兼容大部分人类装备并操作重型武器。 虽然该技术是从殖民舰队所流出的但奇怪的是他们似乎并没有将其投入在当前的殖民活动中。</DMS_Mech_Armiman.description>
+  <!-- EN: head -->
+  <DMS_Mech_Armiman.tools.head.label>头</DMS_Mech_Armiman.tools.head.label>
+  <!-- EN: left fist -->
+  <DMS_Mech_Armiman.tools.left_fist.label>左手</DMS_Mech_Armiman.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <DMS_Mech_Armiman.tools.right_fist.label>右手</DMS_Mech_Armiman.tools.right_fist.label>
+  
+</LanguageData>

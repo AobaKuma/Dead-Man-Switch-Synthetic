@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Make things at Synthetic constructor. -->
+  <DMS_DoBillsSyntheticConstructor.label>在合成培育舱进行工作</DMS_DoBillsSyntheticConstructor.label>
+  <!-- EN: working at -->
+  <DMS_DoBillsSyntheticConstructor.gerund>工作中</DMS_DoBillsSyntheticConstructor.gerund>
+  <!-- EN: work at -->
+  <DMS_DoBillsSyntheticConstructor.verb>工作</DMS_DoBillsSyntheticConstructor.verb>
+  
+</LanguageData>

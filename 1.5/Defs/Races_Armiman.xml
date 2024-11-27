@@ -108,11 +108,12 @@
       <mechWeightClass>Heavy</mechWeightClass>
       <mechEnabledWorkTypes>
         <li>Hauling</li>
-        <li>PlantCutting</li>
-        <li>Growing</li>
-        <li>Cleaning</li>
         <li>Firefighter</li>
-        <li>Doctor</li>
+        <li>Warden</li>
+        <li>Handling</li>
+        <li MayRequire="frozensnowfox.complexjobs">FSFRearming</li>
+        <li MayRequire="frozensnowfox.complexjobs">FSFCremating</li>
+        <li MayRequire="frozensnowfox.complexjobs">FSFDeliver</li>
       </mechEnabledWorkTypes>
     </race>
     <comps>
@@ -159,7 +160,7 @@
     <label>Army man</label>
     <race>DMS_Mech_Armiman</race>
     <isFighter>true</isFighter>
-    <combatPower>140</combatPower>
+    <combatPower>50</combatPower>
     <lifeStages>
       <li>
         <bodyGraphicData>

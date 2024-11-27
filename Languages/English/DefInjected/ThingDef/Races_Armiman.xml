@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Armiman -->
+  <DMS_Mech_Armiman.label>Armiman</DMS_Mech_Armiman.label>
+  <!-- EN: A technically very mature military combat robot, capable of being compatible with most human equipment and operating heavy weapons. Although this technology was leaked from the colonial fleet, strangely they did not seem to invest it in colonial activities. -->
+  <DMS_Mech_Armiman.description>A technically matured military combat synth, capable of being compatible with most human equipment and operating heavy weapons. Although this technology was leaked from the colonial fleet, strangely they did not seem to invest it in their colonization activities.</DMS_Mech_Armiman.description>
+  <!-- EN: head -->
+  <DMS_Mech_Armiman.tools.head.label>head</DMS_Mech_Armiman.tools.head.label>
+  <!-- EN: left fist -->
+  <DMS_Mech_Armiman.tools.left_fist.label>left fist</DMS_Mech_Armiman.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <DMS_Mech_Armiman.tools.right_fist.label>right fist</DMS_Mech_Armiman.tools.right_fist.label>
+  
+</LanguageData>

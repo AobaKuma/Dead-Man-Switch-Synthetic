@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Synthetic Constructor -->
+  <DMS_MechGestatorSynthetic.label>Synthetic Constructor</DMS_MechGestatorSynthetic.label>
+  <!-- EN: A massive piece of industrial equipment used to assemble Synthetic forms. -->
+  <DMS_MechGestatorSynthetic.description>A massive piece of industrial equipment used to assemble Synthetic forms.</DMS_MechGestatorSynthetic.description>
+  
+  <!-- EN: Mote -->
+  <DMS_SyntheticConstructorCycleComplete.label>Mote</DMS_SyntheticConstructorCycleComplete.label>
+  
+  <!-- EN: Mote -->
+  <DMS_SyntheticConstructorFormed.label>Mote</DMS_SyntheticConstructorFormed.label>
+  
+  <!-- EN: Mote -->
+  <DMS_SyntheticConstructorForming.label>Mote</DMS_SyntheticConstructorForming.label>
+  
+</LanguageData>
