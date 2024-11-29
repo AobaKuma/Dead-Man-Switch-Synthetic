@@ -1,26 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: Gestate Armiman Automatroid -->
-  <DMS_Make_Armiman.label>培育軍人</DMS_Make_Armiman.label>
-  <!-- EN: Gestate an Armiman Automatroid. -->
-  <DMS_Make_Armiman.description>培育軍人，一種使用人工肌肉來構築身體的量產型合成機兵，能夠穿戴並使用大部分人類的裝備與裝甲。</DMS_Make_Armiman.description>
-  <!-- EN: Gestating mech. -->
-  <DMS_Make_Armiman.jobString>培育合成胚胎中</DMS_Make_Armiman.jobString>
-  
   <!-- EN: Gestate Lady -->
   <DMS_Make_Lady.label>培育女士</DMS_Make_Lady.label>
   <!-- EN: Gestate a Lady Synth. -->
   <DMS_Make_Lady.description>培育女士，一種用於射擊輔助與狙擊觀察手用途的軍用合成人。由於其高密度的人工肌肉纖維導致生產價格的居高不下也因此也被私底下戲稱為"千金"。</DMS_Make_Lady.description>
   <!-- EN: Gestating mech. -->
   <DMS_Make_Lady.jobString>培育合成胚胎中</DMS_Make_Lady.jobString>
-  
-  <!-- EN: Gestate Maiden -->
-  <DMS_Make_Maiden.label>培育侍女</DMS_Make_Maiden.label>
-  <!-- EN: Gestate a Maiden Synth. -->
-  <DMS_Make_Maiden.description>培育侍女，一種面向民用市場的居家服務型合成人。</DMS_Make_Maiden.description>
-  <!-- EN: Gestating mech. -->
-  <DMS_Make_Maiden.jobString>培育合成胚胎中</DMS_Make_Maiden.jobString>
   
   <!-- EN: resurrect synthetic automatroid -->
   <DMS_ResurrectSynthetic.label>修復合成機兵</DMS_ResurrectSynthetic.label>

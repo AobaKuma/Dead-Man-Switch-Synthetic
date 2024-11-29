@@ -172,7 +172,7 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Synthroid/Armiman</texPath>
+          <texPath>Things/Synthroid/Armiman/body</texPath>
           <shaderType>CutoutComplex</shaderType>
           <graphicClass>Graphic_Multi</graphicClass>
           <drawSize>1.75</drawSize>
@@ -183,4 +183,53 @@
       <li>DMS_MechWeaponHeavy</li>
     </weaponTags>
   </PawnKindDef>
+
+  
+  <!-- 軍人 -->
+  <RecipeDef ParentName="DMS_SyntheticRecipe">
+    <defName>DMS_Make_Armiman</defName>
+    <label>Gestate Armiman Automatroid</label>
+    <description>Gestate an Armiman Automatroid.</description>
+    <products>
+      <DMS_Mech_Armiman>1</DMS_Mech_Armiman>
+    </products>
+    <gestationCycles>3</gestationCycles>
+    <descriptionHyperlinks>
+      <ThingDef>DMS_Mech_Armiman</ThingDef>
+    </descriptionHyperlinks>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Artifuscle</li>
+          </thingDefs>
+        </filter>
+        <count>80</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Tungsteel</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentStamped</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neurocomputer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+  </RecipeDef>
 </Defs>

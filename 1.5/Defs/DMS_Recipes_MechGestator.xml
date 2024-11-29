@@ -38,54 +38,6 @@
       <li>DMS_MechGestatorSynthetic</li>
     </recipeUsers>
   </RecipeDef>
-  
-  <!-- 軍人 -->
-  <RecipeDef ParentName="DMS_SyntheticRecipe">
-    <defName>DMS_Make_Armiman</defName>
-    <label>Gestate Armiman Automatroid</label>
-    <description>Gestate an Armiman Automatroid.</description>
-    <products>
-      <DMS_Mech_Armiman>1</DMS_Mech_Armiman>
-    </products>
-    <gestationCycles>3</gestationCycles>
-    <descriptionHyperlinks>
-      <ThingDef>DMS_Mech_Armiman</ThingDef>
-    </descriptionHyperlinks>
-    <ingredients Inherit="False">
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Artifuscle</li>
-          </thingDefs>
-        </filter>
-        <count>80</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Tungsteel</li>
-          </thingDefs>
-        </filter>
-        <count>40</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ComponentStamped</li>
-          </thingDefs>
-        </filter>
-        <count>4</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Neurocomputer</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-    </ingredients>
-  </RecipeDef>
 
   <!-- 女士 -->
   <RecipeDef ParentName="DMS_SyntheticRecipe">
@@ -127,51 +79,4 @@
     </ingredients>
   </RecipeDef>
   
-  <!-- 侍女 -->
-  <RecipeDef ParentName="DMS_SyntheticRecipe">
-    <defName>DMS_Make_Maiden</defName>
-    <label>Gestate Maiden</label>
-    <description>Gestate a Maiden Synth.</description>
-    <products>
-      <DMS_Mech_Maiden>1</DMS_Mech_Maiden>
-    </products>
-    <gestationCycles>1</gestationCycles>
-    <descriptionHyperlinks>
-      <ThingDef>DMS_Mech_Maiden</ThingDef>
-    </descriptionHyperlinks>
-    <ingredients Inherit="False">
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Artifuscle</li>
-          </thingDefs>
-        </filter>
-        <count>40</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
-        </filter>
-        <count>40</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ComponentStamped</li>
-          </thingDefs>
-        </filter>
-        <count>2</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Neurocomputer</li>
-          </thingDefs>
-        </filter>
-        <count>1</count>
-      </li>
-    </ingredients>
-  </RecipeDef>
 </Defs>

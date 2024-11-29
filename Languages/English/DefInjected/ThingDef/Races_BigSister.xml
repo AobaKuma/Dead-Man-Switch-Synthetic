@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: big sister -->
+  <DMS_Mech_BigSister.label>big sister</DMS_Mech_BigSister.label>
+  <!-- EN: It was originally designed as a test flight pilots for exoskeleton frames, but production was once discontinued due to its high cost. However, the turning point of things was the war show craze that emerged in the Mid World, making this rather eye-catching synthetic girls the first choice for performance actors. -->
+  <DMS_Mech_BigSister.description>It was originally designed as a test flight pilots for exoskeleton frames, but production was once discontinued due to its high cost. However, the turning point of things was the war show craze that emerged in the Mid World, making this rather eye-catching synthetic girls the first choice for performance actors.</DMS_Mech_BigSister.description>
+  <!-- EN: left fist -->
+  <DMS_Mech_BigSister.tools.left_fist.label>left fist</DMS_Mech_BigSister.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <DMS_Mech_BigSister.tools.right_fist.label>right fist</DMS_Mech_BigSister.tools.right_fist.label>
+  
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Gestate Maiden -->
+  <DMS_Make_Maiden.label>培育侍女</DMS_Make_Maiden.label>
+  <!-- EN: Gestate a Maiden Synth. -->
+  <DMS_Make_Maiden.description>培育侍女，一種面向民用市場的居家服務型合成人。</DMS_Make_Maiden.description>
+  <!-- EN: Gestating mech. -->
+  <DMS_Make_Maiden.jobString>培育合成胚胎中</DMS_Make_Maiden.jobString>
+  
+</LanguageData>

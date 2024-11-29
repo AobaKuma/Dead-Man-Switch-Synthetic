@@ -63,7 +63,7 @@
       <mechEnabledWorkTypes>
         <li>Cleaning</li>
         <li>Firefighter</li>
-        <li>Crafting</li>
+        <li>Cooking</li>
         <li>Tailoring</li>
         <li>Doctor</li>
         <li>Handling</li>
@@ -152,14 +152,15 @@
     <controlGroupPortraitZoom>1.2</controlGroupPortraitZoom>
   </PawnKindDef>
 
-  <RecipeDef ParentName="DMS_HumanoidMechanoidRecipe" Abstract="true">
+  
+  <!-- 侍女 -->
+  <RecipeDef ParentName="DMS_SyntheticRecipe">
     <defName>DMS_Make_Maiden</defName>
-    <label>Gestate maiden</label>
-    <description>Gestate a maiden mechanoid.</description>
+    <label>Gestate Maiden</label>
+    <description>Gestate a Maiden Synth.</description>
     <products>
       <DMS_Mech_Maiden>1</DMS_Mech_Maiden>
     </products>
-    <researchPrerequisite>DMS_Hybird</researchPrerequisite>
     <gestationCycles>1</gestationCycles>
     <descriptionHyperlinks>
       <ThingDef>DMS_Mech_Maiden</ThingDef>
@@ -168,26 +169,26 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Plasteel</li>
-          </thingDefs>
-        </filter>
-        <count>50</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
             <li>Artifuscle</li>
           </thingDefs>
         </filter>
-        <count>20</count>
+        <count>40</count>
       </li>
       <li>
         <filter>
           <thingDefs>
-            <li>ComponentSpacer</li>
+            <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>40</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentStamped</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
       </li>
       <li>
         <filter>

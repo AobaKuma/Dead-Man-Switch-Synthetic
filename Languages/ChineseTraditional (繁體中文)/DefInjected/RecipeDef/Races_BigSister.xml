@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Gestate big sister -->
+  <DMS_Make_BigSister.label>培育大姐頭</DMS_Make_BigSister.label>
+  <!-- EN: Gestate a big sister mechanoid. -->
+  <DMS_Make_BigSister.description>培育大姐頭，一種在戰爭秀中大放光彩的舞者與偶像，但依舊是一種十分致命的軍用外骨骼合成人。</DMS_Make_BigSister.description>
+  <!-- EN: Gestating mech. -->
+  <DMS_Make_BigSister.jobString>培育合成胚胎中</DMS_Make_BigSister.jobString>
+  
+</LanguageData>
