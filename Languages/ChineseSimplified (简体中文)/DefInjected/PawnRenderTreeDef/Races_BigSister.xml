@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Apparel root -->
+  <DMS_BigSister.root.children.0.children.0.debugLabel>Apparel root</DMS_BigSister.root.children.0.children.0.debugLabel>
+  <!-- EN: exoframe top -->
+  <DMS_BigSister.root.children.1.debugLabel>exoframe top</DMS_BigSister.root.children.1.debugLabel>
+  <!-- EN: exoframe bottom -->
+  <DMS_BigSister.root.children.2.debugLabel>exoframe bottom</DMS_BigSister.root.children.2.debugLabel>
+  <!-- EN: Apparel root -->
+  <DMS_BigSister.root.children.3.children.0.debugLabel>Apparel root</DMS_BigSister.root.children.3.children.0.debugLabel>
+  <!-- EN: Weapon/carried thing -->
+  <DMS_BigSister.root.children.4.debugLabel>Weapon/carried thing</DMS_BigSister.root.children.4.debugLabel>
+  
+</LanguageData>

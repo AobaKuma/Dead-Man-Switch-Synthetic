@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: Gestate Armiman Automatroid -->
-  <DMS_Make_Armiman.label>培育军人</DMS_Make_Armiman.label>
-  <!-- EN: Gestate an Armiman Automatroid. -->
-  <DMS_Make_Armiman.description>培育军人，一种使用人工肌肉来构筑身体的量产型合成机兵，能够穿戴并使用大部分人类的装备与装甲。</DMS_Make_Armiman.description>
-  <!-- EN: Gestating mech. -->
-  <DMS_Make_Armiman.jobString>培育合成胚胎中</DMS_Make_Armiman.jobString>
-  
   <!-- EN: Gestate Lady -->
   <DMS_Make_Lady.label>培育女士</DMS_Make_Lady.label>
   <!-- EN: Gestate a Lady Synth. -->
@@ -15,17 +8,10 @@
   <!-- EN: Gestating mech. -->
   <DMS_Make_Lady.jobString>培育合成胚胎中</DMS_Make_Lady.jobString>
   
-  <!-- EN: Gestate Maiden -->
-  <DMS_Make_Maiden.label>培育侍女</DMS_Make_Maiden.label>
-  <!-- EN: Gestate a Maiden Synth. -->
-  <DMS_Make_Maiden.description>培育侍女，一种面向民用市场的居家服务型合成人。</DMS_Make_Maiden.description>
-  <!-- EN: Gestating mech. -->
-  <DMS_Make_Maiden.jobString>培育合成胚胎中</DMS_Make_Maiden.jobString>
-  
   <!-- EN: resurrect synthetic automatroid -->
   <DMS_ResurrectSynthetic.label>修复合成机兵</DMS_ResurrectSynthetic.label>
   <!-- EN: Resurrect a synth. So long as the synth's body is not completely destroyed, it can be resurrected. -->
-  <DMS_ResurrectSynthetic.description>重新启动修复程序来复活合成机兵，只要躯体还保持完整那么就可以在受控环境下完成自我再生。</DMS_ResurrectSynthetic.description>
+  <DMS_ResurrectSynthetic.description>重新启动修复程序来复活合成机兵，只要躯体还保持完整那麽就可以在受控环境下完成自我再生。</DMS_ResurrectSynthetic.description>
   <!-- EN: Resurrecting mech. -->
   <DMS_ResurrectSynthetic.jobString>修复合成体中</DMS_ResurrectSynthetic.jobString>
   

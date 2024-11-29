@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: big sister -->
+  <DMS_Mech_BigSister.label>大姐头</DMS_Mech_BigSister.label>
+  <!-- EN: It was originally designed as a test flight pilots for exoskeleton frames, but production was once discontinued due to its high cost. However, the turning point of things was the war show craze that emerged in the Mid World, making this rather eye-catching synthetic girls the first choice for performance actors. -->
+  <DMS_Mech_BigSister.description>MG-3 EXO "大姐头" 原本是用於外骨骼框架测试而专门生产的合成人型号，其具有远超出人类驾驶员的身体强度来避免在外骨骼系统的超限测试中被撕的四分五裂。但最终因为该型外骨骼过於暴露的驾驶舱面积与其高昂的测试成本而逐步停止生产。\n\n然而事情的转机在於中寰世界所兴起的战争秀热潮，对於美女驾驶机甲大战外星异虫的题材盛行使得这种无论是外观与设计上都相当惹眼的机体就成为了满足观众慾望的首选对象，其飒爽的英姿与威武的武器也使大姐头成为了中寰世界青年们倾慕的对象。</DMS_Mech_BigSister.description>
+  <!-- EN: left fist -->
+  <DMS_Mech_BigSister.tools.left_fist.label>左手</DMS_Mech_BigSister.tools.left_fist.label>
+  <!-- EN: right fist -->
+  <DMS_Mech_BigSister.tools.right_fist.label>右手</DMS_Mech_BigSister.tools.right_fist.label>
+  
+</LanguageData>
