@@ -5,12 +5,15 @@
   <DMS_Mech_Maiden.label>侍女</DMS_Mech_Maiden.label>
   <!-- EN: A bionic synth for home service. It has no outstanding performance but looks no different from humans. \n\nAlthough the appearance and technology used are roughly the same, this replica model is not as agile as the prototype that was discontinued by Nara Industries, but its completely customized OS allows it to use any ergonomically designed tool included firearms.\n\nCompared to the MG-1 "Lady" used for military purposes and the MG-3EXO "Big Sister" used for war shows, the initial design and cost considerations of the MG-2C "Maiden" were entirely for the civilian market. The original intention is to reduce expensive production costs through large-scale application of artificial muscles through private sales. But it is obvious that the design that is too close to human appearance and complex emotional expression has become a moral issue. Due to the situation on earth at that time and the increasingly intensifying conflicts, Nara Industries discontinued the subsequent models. -->
   <DMS_Mech_Maiden.description>一种家居服务用的仿生合成人，并没有甚麽称得上亮眼的性能但外表上与人类没有差异。\n\n虽然外观与使用的技术大致相同，但这架仿制型号并没有如同奈良重工停产的原型机来的灵动。 但完全由後世编篡的操作系统使其能够不受任何限制的兼容任何符合人体工学的物品。 \n\n相比於用於军事用途的MG-1"Lady" 与用於实镜战争秀的 MG-3E "Big Sister"，MG-2C "Maiden"起初的设计与成本考量完全是面向民用市场的，本意是透过民间销售来让人工肌肉能透过大规模应用来降低昂贵的生产成本。但很显然的太过於接近人类外貌的设计与复杂的情感表达成为了一种道德问题。因此出於当时地球上的局势与日益激化的矛盾问题，奈良重工停止了生产後续机体的计画。</DMS_Mech_Maiden.description>
-  <!-- EN: left fist -->
-  <DMS_Mech_Maiden.tools.left_fist.label>左手</DMS_Mech_Maiden.tools.left_fist.label>
-  <!-- EN: right fist -->
-  <DMS_Mech_Maiden.tools.right_fist.label>右手</DMS_Mech_Maiden.tools.right_fist.label>
-  
-  <!-- UNUSED -->
+  <!-- EN: head -->
   <DMS_Mech_Maiden.tools.head.label>头</DMS_Mech_Maiden.tools.head.label>
+  <!-- EN: left fist -->
+  <DMS_Mech_Maiden.tools.left_fist-0.label>左手</DMS_Mech_Maiden.tools.left_fist-0.label>
+  <!-- EN: right fist -->
+  <DMS_Mech_Maiden.tools.right_fist-0.label>右手</DMS_Mech_Maiden.tools.right_fist-0.label>
+  <!-- EN: left fist -->
+  <DMS_Mech_Maiden.tools.left_fist-1.label>左手</DMS_Mech_Maiden.tools.left_fist-1.label>
+  <!-- EN: right fist -->
+  <DMS_Mech_Maiden.tools.right_fist-1.label>右手</DMS_Mech_Maiden.tools.right_fist-1.label>
   
 </LanguageData>

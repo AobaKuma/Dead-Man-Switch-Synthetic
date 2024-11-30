@@ -4,10 +4,32 @@
   <!-- EN: big sister -->
   <DMS_Mech_BigSister.label>大姐頭</DMS_Mech_BigSister.label>
   <!-- EN: It was originally designed as a test flight pilots for exoskeleton frames, but production was once discontinued due to its high cost. However, the turning point of things was the war show craze that emerged in the Mid World, making this rather eye-catching synthetic girls the first choice for performance actors. -->
-  <DMS_Mech_BigSister.description>MG-3 EXO "大姐頭" 原本是用於外骨骼框架測試而專門生產的合成人型號，其具有遠超出人類駕駛員的身體強度來避免在外骨骼系統的超限測試中被撕的四分五裂。但最終因為該型外骨骼過於暴露的駕駛艙面積與其高昂的測試成本而逐步停止生產。\n\n然而事情的轉機在於中寰世界所興起的戰爭秀熱潮，對於美女駕駛機甲大戰外星異蟲的題材盛行使得這種無論是外觀與設計上都相當惹眼的機體就成為了滿足觀眾慾望的首選對象，其颯爽的英姿與威武的武器也使大姐頭成為了中寰世界青年們傾慕的對象。</DMS_Mech_BigSister.description>
+  <DMS_Mech_BigSister.description>MG-3 EXO "大姐頭" 原本是用於測試外骨骼框架而專門生產的合成人型號，其具有遠超出人類駕駛員的身體強度來避免在外骨骼系統的超限測試中被撕的四分五裂。但最終因為該型外骨骼過於暴露的駕駛艙面積與其高昂的測試成本而逐步停止生產。\n\n然而事情的轉機在於中寰世界所興起的戰爭秀熱潮，對於美女駕駛機甲大戰外星異蟲的題材盛行使得這種無論是外觀與設計上都相當惹眼的機體就成為了滿足觀眾慾望的首選對象，其颯爽的英姿與威武的武器也使大姐頭成為了中寰世界青年們傾慕的對象。</DMS_Mech_BigSister.description>
+  <!-- EN: Aim at target -->
+  <DMS_Mech_BigSister.comps.CompMultipleTurretGun.subTurrets.0.command_Target>瞄準目標</DMS_Mech_BigSister.comps.CompMultipleTurretGun.subTurrets.0.command_Target>
+  <!-- EN: Fire at will -->
+  <DMS_Mech_BigSister.comps.CompMultipleTurretGun.subTurrets.0.command_ToggleFire>自由開火</DMS_Mech_BigSister.comps.CompMultipleTurretGun.subTurrets.0.command_ToggleFire>
+  <!-- EN: Aim at designated target -->
+  <DMS_Mech_BigSister.comps.CompMultipleTurretGun.subTurrets.0.commandDesc_Target>瞄準指定目標</DMS_Mech_BigSister.comps.CompMultipleTurretGun.subTurrets.0.commandDesc_Target>
+  <!-- EN: Toggle turret to manual control mode to prevent unnecessary shooting. -->
+  <DMS_Mech_BigSister.comps.CompMultipleTurretGun.subTurrets.0.commandDesc_ToggleFire>切換炮塔至手動模式來避免非必要的開火</DMS_Mech_BigSister.comps.CompMultipleTurretGun.subTurrets.0.commandDesc_ToggleFire>
+  <!-- EN: Aim at a target -->
+  <DMS_Mech_BigSister.comps.CompMultipleTurretGun.subTurrets.1.command_Target>瞄準目標</DMS_Mech_BigSister.comps.CompMultipleTurretGun.subTurrets.1.command_Target>
+  <!-- EN: Fire at will -->
+  <DMS_Mech_BigSister.comps.CompMultipleTurretGun.subTurrets.1.command_ToggleFire>自由開火</DMS_Mech_BigSister.comps.CompMultipleTurretGun.subTurrets.1.command_ToggleFire>
+  <!-- EN: Aim at a desinated target -->
+  <DMS_Mech_BigSister.comps.CompMultipleTurretGun.subTurrets.1.commandDesc_Target>瞄準指定目標</DMS_Mech_BigSister.comps.CompMultipleTurretGun.subTurrets.1.commandDesc_Target>
+  <!-- EN: Toggle turret to manual control mode to prevent unnecessary shooting. -->
+  <DMS_Mech_BigSister.comps.CompMultipleTurretGun.subTurrets.1.commandDesc_ToggleFire>切換炮塔至手動模式來避免非必要的開火</DMS_Mech_BigSister.comps.CompMultipleTurretGun.subTurrets.1.commandDesc_ToggleFire>
+  <!-- EN: head -->
+  <DMS_Mech_BigSister.tools.head.label>頭</DMS_Mech_BigSister.tools.head.label>
   <!-- EN: left fist -->
-  <DMS_Mech_BigSister.tools.left_fist.label>左手</DMS_Mech_BigSister.tools.left_fist.label>
+  <DMS_Mech_BigSister.tools.left_fist-0.label>左手</DMS_Mech_BigSister.tools.left_fist-0.label>
   <!-- EN: right fist -->
-  <DMS_Mech_BigSister.tools.right_fist.label>右手</DMS_Mech_BigSister.tools.right_fist.label>
+  <DMS_Mech_BigSister.tools.right_fist-0.label>右手</DMS_Mech_BigSister.tools.right_fist-0.label>
+  <!-- EN: left fist -->
+  <DMS_Mech_BigSister.tools.left_fist-1.label>左手</DMS_Mech_BigSister.tools.left_fist-1.label>
+  <!-- EN: right fist -->
+  <DMS_Mech_BigSister.tools.right_fist-1.label>右手</DMS_Mech_BigSister.tools.right_fist-1.label>
   
 </LanguageData>

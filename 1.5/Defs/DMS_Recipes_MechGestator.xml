@@ -20,13 +20,15 @@
             <li>Artifuscle</li>
           </thingDefs>
         </filter>
-        <count>75</count>
+        <count>25</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
         <li>Corpse_DMS_Mech_Armiman</li>
         <li>Corpse_DMS_Mech_Lady</li>
+        <li>Corpse_DMS_Mech_Maiden</li>
+        <li>Corpse_DMS_Mech_BigSister</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>

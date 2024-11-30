@@ -90,13 +90,6 @@
       <WastepacksPerRecharge MayRequire="Ludeon.Rimworld.Biotech">5</WastepacksPerRecharge> <!--充電/培養時產出廢料-->
       <AimingDelayFactor>1.0</AimingDelayFactor>                                            <!--瞄準延遲-->
     </statBases>
-    <inspectorTabs Inherit="False">
-      <li>ITab_Pawn_Health</li>
-      <li>ITab_Pawn_Needs</li>
-      <li>ITab_Pawn_FormingCaravan</li>
-      <li>ITab_Pawn_Gear</li>
-      <li>ITab_Pawn_Log</li>
-    </inspectorTabs>
     <race>
       <renderTree>DMS_Armiman</renderTree>
       <thinkTreeMain>DMS_HumanlikeMech</thinkTreeMain>

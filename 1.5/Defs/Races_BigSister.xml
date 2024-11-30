@@ -9,6 +9,12 @@
         <defaultData>
           <offset>(0,0,0.5)</offset>
         </defaultData>
+        <dataEast>
+          <offset>(0.5,0,0.5)</offset>
+        </dataEast>
+        <dataWest>
+          <offset>(-0.5,0,0.5)</offset>
+        </dataWest>
       </drawData>
       <children>
         <li>  
@@ -121,9 +127,16 @@
       <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
       <EMPResistance MayRequire="Ludeon.Rimworld.Biotech">5</EMPResistance>                                             <!--EMP抵抗力-->
-      <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">2</BandwidthCost>
+      <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">3</BandwidthCost>
       <ControlTakingTime MayRequire="Ludeon.Rimworld.Biotech">45</ControlTakingTime>
     </statBases>
+    <inspectorTabs Inherit="False">
+      <li>ITab_Pawn_Health</li>
+      <li>ITab_Pawn_Needs</li>
+      <li>ITab_Pawn_FormingCaravan</li>
+      <li>ITab_Pawn_Gear</li>
+      <li>ITab_Pawn_Log</li>
+    </inspectorTabs>
     <tools Inherit="false">
       <li>
         <label>left fist</label>
@@ -161,12 +174,14 @@
       </li>
     </tools>
     <race>
+      <baseHealthScale>3</baseHealthScale>
       <baseBodySize>2</baseBodySize>
       <renderTree>DMS_BigSister</renderTree>
       <thinkTreeMain>DMS_HumanlikeMech</thinkTreeMain>
       <makesFootprints>true</makesFootprints>
       <body>DMS_Synthroid</body>
-      <mechFixedSkillLevel>10</mechFixedSkillLevel>
+      <nameGenerator>DMS_VanguardMechHeavy</nameGenerator>
+      <mechFixedSkillLevel>12</mechFixedSkillLevel>
       <mechEnabledWorkTypes>
         <li>Construction</li>
         <li>Crafting</li>
@@ -192,7 +207,110 @@
       </lifeStageAges>
     </race>
     <comps>
-      <li Class="DMS.CompProperties_MechApparel">
+      <li Class="DMS.CompProperties_MechApparel"></li>
+      <li Class="DMS.CompPropertiesMultipleTurretGun">
+          <subTurrets>
+            <li>
+            <ID>machine gun</ID>
+            <turret>DMS_SubMachineGunMounted</turret>
+            <autoAttack>true</autoAttack>
+            <command_ToggleFire>Fire at will</command_ToggleFire>
+            <commandDesc_ToggleFire>Toggle turret to manual control mode to prevent unnecessary shooting.</commandDesc_ToggleFire>
+            <command_Target>Aim at target</command_Target>
+            <commandDesc_Target>Aim at designated target</commandDesc_Target>
+            <warmingTime>3.2</warmingTime>
+            <targetCommandIconPath>UI/Gizmos/ToggleTurret</targetCommandIconPath>
+            <angleOffset>-90</angleOffset>
+            <renderNodeProperties>
+              <li>
+                <nodeClass>DMS.PawnRenderNode_SubTurretGun</nodeClass>
+                <workerClass>DMS.PawnRenderNodeWorker_SubTurretGun</workerClass>
+                <parentTagDef>Body</parentTagDef>
+                <drawSize>0.75</drawSize>
+                <baseLayer>-21</baseLayer>
+                <pawnType>Any</pawnType>
+                <drawData>
+                  <defaultData>
+                    <pivot>(0.4,0.5)</pivot>
+                  </defaultData>
+                  <dataEast>
+                      <offset>(-0.5,0,0.75)</offset>
+                  </dataEast>
+                  <dataWest>
+                      <offset>(0.60,0,0)</offset>
+                      <layer>63</layer>
+                      <rotationOffset>180</rotationOffset>
+                  </dataWest>
+                  <dataSouth>
+                      <offset>(0.75,0,0.65)</offset>
+                      <layer>1</layer>
+                  </dataSouth>
+                  <dataNorth>
+                      <offset>(-0.8,0,0.65)</offset>
+                      <layer>1</layer>
+                  </dataNorth>
+                </drawData>
+              </li>
+            </renderNodeProperties>
+           </li>
+            <li>
+              <ID>close inbound system</ID>
+              <turret>DMS_ShotgunGunMounted</turret>
+              <autoAttack>true</autoAttack>
+              <command_ToggleFire>Fire at will</command_ToggleFire>
+              <commandDesc_ToggleFire>Toggle turret to manual control mode to prevent unnecessary shooting.</commandDesc_ToggleFire>
+              <command_Target>Aim at a target</command_Target>
+              <commandDesc_Target>Aim at a desinated target</commandDesc_Target>
+              <warmingTime>2</warmingTime>
+              <targetCommandIconPath>UI/Gizmos/ToggleTurret</targetCommandIconPath>
+              <angleOffset>-90</angleOffset>
+              <renderNodeProperties>
+                <li>
+                  <nodeClass>DMS.PawnRenderNode_SubTurretGun</nodeClass>
+                  <workerClass>DMS.PawnRenderNodeWorker_SubTurretGun</workerClass>
+                  <parentTagDef>Body</parentTagDef>
+                  <drawSize>0.5</drawSize>
+                  <baseLayer>20</baseLayer>
+                  <pawnType>Any</pawnType>
+                  <drawData>
+                    <dataEast>
+                      <offset>(-0.25,0,0.25)</offset>
+                      <layer>-22</layer>
+                    </dataEast>
+                    <dataWest>
+                      <offset>(0.35,0,-0.75)</offset>
+                      <layer>63</layer>
+                      <rotationOffset>180</rotationOffset>
+                    </dataWest>
+                    <dataSouth>
+                      <offset>(0.7,0,-0.35)</offset>
+                      <rotationOffset>-10</rotationOffset>
+                      <layer>-5</layer>
+                    </dataSouth>
+                    <dataNorth>
+                      <offset>(-0.7,0,-0.25)</offset> 
+                      <rotationOffset>-10</rotationOffset>
+                    </dataNorth>
+                  </drawData>
+                </li>
+              </renderNodeProperties>
+            </li>
+          </subTurrets>
+      </li>
+      <li Class="CompProperties_ProjectileInterceptor">
+        <radius>2</radius>
+        <interceptGroundProjectiles>true</interceptGroundProjectiles>
+        <color>(0.4, 0.4, 0.6)</color>
+        <reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
+        <activeSound>BulletShield_Ambience</activeSound>
+        <hitPoints>400</hitPoints>
+        <hitPointsRestoreInstantlyAfterCharge>true</hitPointsRestoreInstantlyAfterCharge>
+        <chargeDurationTicks>900</chargeDurationTicks><!-- 30s -->
+        <rechargeHitPointsIntervalTicks>120</rechargeHitPointsIntervalTicks>
+        <minIdleAlpha>0.5</minIdleAlpha>
+        <drawWithNoSelection>false</drawWithNoSelection>
+        <disarmedByEmpForTicks>300</disarmedByEmpForTicks>
+        <gizmoTipKey>ProjectileInterceptorTip</gizmoTipKey>
       </li>
     </comps>
     <modExtensions>
@@ -277,7 +395,7 @@
             <li>Tungsteel</li>
           </thingDefs>
         </filter>
-        <count>140</count>
+        <count>100</count>
       </li>
       <li>
         <filter>
@@ -285,7 +403,7 @@
             <li>Artifuscle</li>
           </thingDefs>
         </filter>
-        <count>80</count>
+        <count>100</count>
       </li>
       <li>
         <filter>
@@ -302,6 +420,14 @@
           </thingDefs>
         </filter>
         <count>2</count>
+      </li>
+      <li MayRequire="ludeon.rimworld.royalty">
+        <filter>
+          <thingDefs>
+            <li>BroadshieldCore</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
       </li>
       <li>
         <filter>
