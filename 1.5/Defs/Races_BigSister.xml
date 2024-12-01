@@ -124,8 +124,9 @@
     <statBases>
       <MarketValue>1500</MarketValue>
       <MoveSpeed>6.5</MoveSpeed>
-      <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+      <ArmorRating_Heat>1.2</ArmorRating_Heat>
       <EMPResistance MayRequire="Ludeon.Rimworld.Biotech">5</EMPResistance>                                             <!--EMP抵抗力-->
       <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">3</BandwidthCost>
       <ControlTakingTime MayRequire="Ludeon.Rimworld.Biotech">45</ControlTakingTime>

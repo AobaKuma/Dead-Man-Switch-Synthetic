@@ -18,6 +18,13 @@
       <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">1</BandwidthCost>
       <ControlTakingTime MayRequire="Ludeon.Rimworld.Biotech">30</ControlTakingTime>
     </statBases>
+    <inspectorTabs Inherit="False">
+      <li>ITab_Pawn_Health</li>
+      <li>ITab_Pawn_Needs</li>
+      <li>ITab_Pawn_FormingCaravan</li>
+      <li>ITab_Pawn_Gear</li>
+      <li>ITab_Pawn_Log</li>
+    </inspectorTabs>
     <tools Inherit="false">
       <li>
         <label>left fist</label>
