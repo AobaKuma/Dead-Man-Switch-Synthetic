@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[not(IgnoreApparelDefs)]</xpath> 
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[not(IgnoreApparelDefs)]</xpath>
+			<value>
+				<IgnoreApparelDefs />
+			</value>
+		</match>
+	</Operation>
+	
+<!--    取消下面三件防具的服裝自動配合身形變化，因為變化不好看及生物防護服的頭罩會消失	-->
+	<Operation Class="PatchOperationConditional"> 
+		<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef/IgnoreApparelDefs</xpath> 	
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef/IgnoreApparelDefs</xpath>
+			<value>
+			    <li>DMS_Apparel_GarrisionCoat</li><!-- 駐軍大衣 -->
+				<li>DMS_Apparel_TacticalCloak</li><!-- 戰術斗篷 -->
+				<li>DMS_Apparel_HazardSuit</li><!-- 生物防護服 -->
+				<li>DMS_Apparel_PowerSkelton</li><!-- 機械外骨骼 -->
+			</value>
+		</match>
+	</Operation>
+</Patch>
