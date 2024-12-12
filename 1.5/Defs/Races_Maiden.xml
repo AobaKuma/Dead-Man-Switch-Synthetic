@@ -10,6 +10,7 @@
     <thingClass>DMS.HumanlikeMech</thingClass>
     <uiIconPath>Things/Synthroid/Maiden/icon</uiIconPath>
     <statBases>
+      <FoodPoisonChance>0</FoodPoisonChance>
       <MarketValue>1000</MarketValue>
       <MoveSpeed>5.5</MoveSpeed>
       <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
