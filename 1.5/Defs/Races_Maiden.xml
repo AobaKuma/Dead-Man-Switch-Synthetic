@@ -67,7 +67,7 @@
       <thinkTreeMain>DMS_HumanlikeMech</thinkTreeMain>
       <makesFootprints>true</makesFootprints>
       <body>DMS_Synthroid</body>
-      <mechFixedSkillLevel>10</mechFixedSkillLevel>
+      <mechFixedSkillLevel>8</mechFixedSkillLevel>
       <mechEnabledWorkTypes>
         <li>Cleaning</li>
         <li>Firefighter</li>
