@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[
+				defName="DMS_Mech_Maiden" or 
+				defName="DMS_Mech_BigSister" or
+				defName="DMS_Mech_Armiman"
+				]/inspectorTabs/li[.="ITab_Pawn_Gear"]</xpath>
+				<value>
+					<li>CombatExtended.ITab_Inventory</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+</Patch>

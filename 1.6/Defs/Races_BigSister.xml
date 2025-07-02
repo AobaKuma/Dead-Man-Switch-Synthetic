@@ -77,8 +77,8 @@
         </li>
         <li>
           <debugLabel>Head</debugLabel>
-          <nodeClass>DMS.PawnRenderNode_Head</nodeClass>
-          <workerClass>DMS.PawnRenderNodeWorker_Head</workerClass>
+          <nodeClass>Fortified.PawnRenderNode_Head</nodeClass>
+          <workerClass>Fortified.PawnRenderNodeWorker_Head</workerClass>
           <tagDef>Head</tagDef>
           <skipFlag>Head</skipFlag>
           <baseLayer>50</baseLayer>
@@ -119,7 +119,7 @@
     <description>It was originally designed as a test flight pilots for exoskeleton frames, but production was once discontinued due to its high cost. However, the turning point of things was the war show craze that emerged in the Mid World, making this rather eye-catching synthetic girls the first choice for performance actors.</description>
     <!--本是作為外骨骼框架測試用而被設計的機體，但由於其高昂的成本而停止生產。然而事情的轉機在於中寰世界所興起的戰爭秀熱潮，使得這種外觀上相當惹眼的機體成為了表演道具的首選。-->
 
-    <thingClass>DMS.HumanlikeMech</thingClass>
+    <thingClass>Fortified.HumanlikeMech</thingClass>
     <uiIconPath>Things/Synthroid/BigSister/icon</uiIconPath>
     <statBases>
       <MarketValue>1500</MarketValue>
@@ -208,9 +208,8 @@
       </lifeStageAges>
     </race>
     <comps>
-      <li Class="DMS.CompProperties_MechApparel">
-      </li>
-      <li Class="DMS.CompPropertiesMultipleTurretGun">
+      <li Class="Fortified.CompProperties_MechApparel"></li>
+      <li Class="Fortified.CompPropertiesMultipleTurretGun">
           <subTurrets>
             <li>
             <ID>machine gun</ID>
@@ -220,8 +219,8 @@
             <angleOffset>-90</angleOffset>
             <renderNodeProperties>
               <li>
-                <nodeClass>DMS.PawnRenderNode_SubTurretGun</nodeClass>
-                <workerClass>DMS.PawnRenderNodeWorker_SubTurretGun</workerClass>
+                <nodeClass>Fortified.PawnRenderNode_SubTurretGun</nodeClass>
+                <workerClass>Fortified.PawnRenderNodeWorker_SubTurretGun</workerClass>
                 <parentTagDef>Body</parentTagDef>
                 <drawSize>0.75</drawSize>
                 <baseLayer>-21</baseLayer>
@@ -258,8 +257,8 @@
               <angleOffset>-90</angleOffset>
               <renderNodeProperties>
                 <li>
-                  <nodeClass>DMS.PawnRenderNode_SubTurretGun</nodeClass>
-                  <workerClass>DMS.PawnRenderNodeWorker_SubTurretGun</workerClass>
+                  <nodeClass>Fortified.PawnRenderNode_SubTurretGun</nodeClass>
+                  <workerClass>Fortified.PawnRenderNodeWorker_SubTurretGun</workerClass>
                   <parentTagDef>Body</parentTagDef>
                   <drawSize>0.5</drawSize>
                   <baseLayer>20</baseLayer>
@@ -306,8 +305,8 @@
       </li>
     </comps>
     <modExtensions>
-      <li Class="DMS.TurretMannableExtension" />
-      <li Class="DMS.HumanlikeMechExtension">
+      <li Class="Fortified.TurretMannableExtension" />
+      <li Class="Fortified.HumanlikeMechExtension">
         <bodyTypeOverride>Female</bodyTypeOverride>
         <headTypeOverride>Female_AveragePointy</headTypeOverride>
         <headGraphic>
@@ -317,16 +316,13 @@
         </headGraphic>
         <headOffset>(0,0,-0.05)</headOffset>
       </li>
-      <li Class="DMS.MechWeaponExtension">
+      <li Class="Fortified.MechWeaponExtension">
         <EnableWeaponFilter>false</EnableWeaponFilter>
         <EnableTechLevelFilter>true</EnableTechLevelFilter>
         <UsableTechLevels>
           <li>Industrial</li>
           <li>Spacer</li>
         </UsableTechLevels>
-        <ApparelLayerBlackLists>
-          <li>Overhead</li>
-        </ApparelLayerBlackLists>
       </li>
     </modExtensions>
   </ThingDef>
