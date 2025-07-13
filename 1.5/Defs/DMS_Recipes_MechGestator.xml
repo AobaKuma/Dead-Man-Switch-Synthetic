@@ -35,7 +35,7 @@
 
   <RecipeDef Name="DMS_SyntheticRecipe" ParentName="BaseMechanoidRecipe" Abstract="True">
     <gestationCycles>2</gestationCycles>
-    <researchPrerequisite>DMS_Hybird</researchPrerequisite>
+    <researchPrerequisite>DMS_Hybrid</researchPrerequisite>
     <recipeUsers>
       <li>DMS_MechGestatorSynthetic</li>
     </recipeUsers>

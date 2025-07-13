@@ -374,7 +374,7 @@
     <products>
       <DMS_Mech_BigSister>1</DMS_Mech_BigSister>
     </products>
-    <researchPrerequisite>DMS_Hybird</researchPrerequisite>
+    <researchPrerequisite>DMS_Hybrid</researchPrerequisite>
     <gestationCycles>3</gestationCycles>
     <descriptionHyperlinks>
       <ThingDef>DMS_Mech_BigSister</ThingDef>
