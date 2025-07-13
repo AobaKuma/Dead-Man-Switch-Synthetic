@@ -356,7 +356,7 @@
     </lifeStages>
     <weaponMoney>9999~9999</weaponMoney>
     <weaponTags>
-      <li>DMS_MechWeaponHeavy</li>
+      <li>DMS_MechWeaponTransHeavy</li>
     </weaponTags>
     <techHediffsChance>1</techHediffsChance>
     <techHediffsMoney>9999~9999</techHediffsMoney>
