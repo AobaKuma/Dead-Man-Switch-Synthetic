@@ -175,6 +175,7 @@
       </li>
     </tools>
     <race>
+      <mechWeightClass>Heavy</mechWeightClass>
       <baseHealthScale>3</baseHealthScale>
       <baseBodySize>2</baseBodySize>
       <renderTree>DMS_BigSister</renderTree>

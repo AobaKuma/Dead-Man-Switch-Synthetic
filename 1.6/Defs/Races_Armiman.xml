@@ -98,6 +98,7 @@
       <li>ITab_Pawn_Log</li>
     </inspectorTabs>
     <race>
+      <mechWeightClass>Medium</mechWeightClass>
       <renderTree>DMS_Armiman</renderTree>
       <thinkTreeMain>DMS_HumanlikeMech</thinkTreeMain>
       <makesFootprints>true</makesFootprints>
