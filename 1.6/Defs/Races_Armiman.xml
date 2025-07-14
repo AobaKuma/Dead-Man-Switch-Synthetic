@@ -181,6 +181,7 @@
         </bodyGraphicData>
       </li>
     </lifeStages>
+    <weaponMoney>3000~4000</weaponMoney>
     <weaponTags>
       <li>DMS_MechWeaponHeavy</li>
     </weaponTags>
