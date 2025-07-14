@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!-- 
+	These patches are responsible for adding support to any races that share human body assets.
+	-->
+	
+	<!-- Add the modExtension to any human defs that don't already have it. -->
+	<Operation Class="PatchOperationAddModExtension">
+		<!-- Do not use <success>Always</success> unless you know what you're doing. See https://rimworldwiki.com/wiki/Modding_Tutorials/PatchOperations#.22Success.22_Option -->
+		<success>Always</success>	
+		<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[RaceName="Human"][not(modExtensions/li[@Class="APPUtilities.DefModExtension_AlternativeRaceNames"])]</xpath>
+		<value>
+			<li Class="APPUtilities.DefModExtension_AlternativeRaceNames" />
+		</value>
+	</Operation>
+	
+	<!-- Add the alternativeRaceNames node to any of the extensions that don't already have it. -->
+	<Operation Class="PatchOperationAdd">
+		<!-- Do not use <success>Always</success> unless you know what you're doing. See https://rimworldwiki.com/wiki/Modding_Tutorials/PatchOperations#.22Success.22_Option -->
+		<success>Always</success>
+		<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[RaceName="Human"]/modExtensions/li[@Class="APPUtilities.DefModExtension_AlternativeRaceNames"][not(alternativeRaceNames)]</xpath>
+		<value>
+			<alternativeRaceNames />
+		</value>
+	</Operation>
+	
+	<!-- Actually add the new alternative races now that we've made sure we have the path. -->
+	<Operation Class="PatchOperationAdd">
+	    <!-- <success>Always</success> -->
+		<xpath>Defs/ApparelPaperPattern.ApparelPaperPatternDef[RaceName="Human"]/modExtensions/li[@Class="APPUtilities.DefModExtension_AlternativeRaceNames"]/alternativeRaceNames</xpath>
+		<value>
+			<!-- For users - you can simply add a line like one of the ones you see below, but with your race's defName. If you don't know what the MayRequire attribute means, don't worry - you can simply exclude it. -->
+			<li MayRequire="Aoba.DeadManSwitch.Synthetic">DMS_Mech_BigSister</li>
+			<li MayRequire="Aoba.DeadManSwitch.Synthetic">DMS_Mech_Maiden</li>
+			<li MayRequire="Aoba.DeadManSwitch.Synthetic">DMS_Mech_Lady</li>
+		</value>
+	</Operation>
+	
+</Patch>

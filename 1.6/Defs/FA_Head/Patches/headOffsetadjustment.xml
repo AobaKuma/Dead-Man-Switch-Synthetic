@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<!-- 使用FA的頭部時調整BigSister的頭部位置，原Mod有將頭部設置為(0,0,-0.05)。 -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DMS_Mech_BigSister"]/modExtensions/li[2]/headOffset</xpath>
+    <value>
+      <headOffset>(0,0,0)</headOffset>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/PawnRenderTreeDef[defName="DMS_BigSister"]/root/children/li[4]/drawData/defaultData/offset</xpath>
+    <value>
+      <offset>(0,0,0)</offset>
+    </value>
+  </Operation>
+<!-- 使用FA的頭部時調整Maiden的頭部位置，原Mod有將頭部設置為(0,0,-0.05)。 -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DMS_Mech_Maiden"]/modExtensions/li[2]/headOffset</xpath>
+    <value>
+      <headOffset>(0,0,0)</headOffset>
+    </value>
+  </Operation>
+<!-- 使用FA的頭部時調整Lady的頭部位置，原Mod有將頭部設置為(0,0,-0.05)。 -->  
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DMS_Mech_Lady"]/modExtensions/li[2]/headOffset</xpath>
+    <value>
+      <headOffset>(0,0,0)</headOffset>
+    </value>
+  </Operation> 
+</Patch>
