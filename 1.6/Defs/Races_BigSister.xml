@@ -117,8 +117,6 @@
     <defName>DMS_Mech_BigSister</defName>
     <label>big sister</label>
     <description>It was originally designed as a test flight pilots for exoskeleton frames, but production was once discontinued due to its high cost. However, the turning point of things was the war show craze that emerged in the Mid World, making this rather eye-catching synthetic girls the first choice for performance actors.</description>
-    <!--本是作為外骨骼框架測試用而被設計的機體，但由於其高昂的成本而停止生產。然而事情的轉機在於中寰世界所興起的戰爭秀熱潮，使得這種外觀上相當惹眼的機體成為了表演道具的首選。-->
-
     <thingClass>Fortified.HumanlikeMech</thingClass>
     <uiIconPath>Things/Synthroid/BigSister/icon</uiIconPath>
     <statBases>

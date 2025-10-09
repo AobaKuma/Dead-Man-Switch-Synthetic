@@ -72,23 +72,23 @@
       </children>
     </root>
   </PawnRenderTreeDef>
+  
   <!-- 軍人 Armiman-->
   <ThingDef ParentName="BaseAutomatroidHumanRace">
     <defName>DMS_Mech_Armiman</defName>
     <label>Armiman</label>
-    <!-- 一種技術上十分成熟的軍用作戰機兵，能夠兼容大部分人類裝備並操作重型武器。 雖然該技術是從殖民艦隊所流出的但奇怪的是他們似乎並沒有將其投入在殖民活動中。 -->
     <description>A technically very mature military combat robot, capable of being compatible with most human equipment and operating heavy weapons. Although this technology was leaked from the colonial fleet, strangely they did not seem to invest it in colonial activities.</description>
     <thingClass>Fortified.HumanlikeMech</thingClass>    
     <uiIconPath>Things/Synthroid/Armiman/icon</uiIconPath>
     <statBases>
       <StaggerDurationFactor>0.15</StaggerDurationFactor>
-      <MoveSpeed>4.8</MoveSpeed>                                                              <!--移動速度-->
-      <ArmorRating_Blunt>0.5</ArmorRating_Blunt>                                            <!--護甲-->
+      <MoveSpeed>4.8</MoveSpeed>
+      <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.6</ArmorRating_Sharp>
       <ArmorRating_Heat>1.2</ArmorRating_Heat>
-      <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">2</BandwidthCost>                 <!--帶寬消耗-->
-      <WastepacksPerRecharge MayRequire="Ludeon.Rimworld.Biotech">5</WastepacksPerRecharge> <!--充電/培養時產出廢料-->
-      <AimingDelayFactor>1.0</AimingDelayFactor>                                            <!--瞄準延遲-->
+      <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">2</BandwidthCost>
+      <WastepacksPerRecharge MayRequire="Ludeon.Rimworld.Biotech">5</WastepacksPerRecharge>
+      <AimingDelayFactor>1.0</AimingDelayFactor>
     </statBases>
     <inspectorTabs Inherit="False">
       <li>ITab_Pawn_Health</li>
@@ -102,9 +102,9 @@
       <renderTree>DMS_Armiman</renderTree>
       <thinkTreeMain>DMS_HumanlikeMech</thinkTreeMain>
       <makesFootprints>true</makesFootprints>
-      <body>DMS_Synthroid</body>                                                       <!--身體(另外的def)-->
+      <body>DMS_Synthroid</body>
       <nameGenerator>DMS_VanguardMechHeavy</nameGenerator>
-      <baseBodySize>1.2</baseBodySize>
+      <baseBodySize>2.0</baseBodySize>
       <baseHealthScale>1.3</baseHealthScale>
       <mechWeightClass>Heavy</mechWeightClass>
       <mechFixedSkillLevel>10</mechFixedSkillLevel>
@@ -118,6 +118,9 @@
         <li MayRequire="frozensnowfox.complexjobs">FSFDeliver</li>
       </mechEnabledWorkTypes>
     </race>
+    <butcherProducts>
+       <Artifuscle>40</Artifuscle>
+    </butcherProducts>
     <comps>
       <li Class="Fortified.CompProperties_MechApparel">
       </li>
@@ -135,15 +138,8 @@
         <headOffset>(0,0,0.04)</headOffset>
       </li>
       <li Class="Fortified.MechWeaponExtension">
-        <EnableWeaponFilter>true</EnableWeaponFilter>
-        <UsableWeaponTags>
-          <li MayRequire="vanillaexpanded.vwehw">HeavyGun</li><!--重型武器拓展-->
-          <li>DMS_MechWeaponLight</li>
-          <li>DMS_MechWeaponMedium</li>
-          <li>A_SuppressWeapon</li>
-          <li>DMS_MechWeaponTransHeavy</li>
-          <li>DMS_Gun_Recoilless</li>
-        </UsableWeaponTags>
+        <EnableWeaponFilter>false</EnableWeaponFilter>
+        <UsableWeaponTags/>
         <BypassUsableWeapons/>
         <EnableTechLevelFilter>true</EnableTechLevelFilter>
         <UsableTechLevels>
@@ -152,9 +148,6 @@
         </UsableTechLevels>
       </li>
     </modExtensions>
-    <butcherProducts>
-       <Artifuscle>40</Artifuscle>
-    </butcherProducts>
   </ThingDef>
 
   <PawnKindDef ParentName="BaseAutomatroidKind">
@@ -187,8 +180,6 @@
     </weaponTags>
   </PawnKindDef>
 
-  
-  <!-- 軍人 -->
   <RecipeDef ParentName="DMS_SyntheticRecipe">
     <defName>DMS_Make_Armiman</defName>
     <label>Gestate Armiman Automatroid</label>

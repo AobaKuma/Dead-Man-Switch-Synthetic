@@ -112,6 +112,11 @@
           <graphicClass>Graphic_Multi</graphicClass>
           <drawSize>1.4</drawSize>
         </headGraphic>
+        <headGraphicHaired>
+          <texPath>Things/Automatroid/seperated/ladyHead_Bald</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.4</drawSize>
+        </headGraphicHaired>
         <headOffset>(0,0,-0.05)</headOffset>
       </li>
       <li Class="Fortified.MechWeaponExtension">
