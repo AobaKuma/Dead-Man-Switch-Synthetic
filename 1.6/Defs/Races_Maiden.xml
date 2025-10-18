@@ -76,6 +76,7 @@
         <li>Tailoring</li>
         <li>Doctor</li>
         <li>Handling</li>
+        <li MayRequire="gondragon.mechanoidwaiter">Gastronomy_Waiting</li>
         <li MayRequire="orion.hospitality">Diplomat</li>
         <li MayRequire="frozensnowfox.complexjobs">FSFRearming</li>
         <li MayRequire="frozensnowfox.complexjobs">FSFCremating</li>
@@ -113,7 +114,7 @@
           <drawSize>1.4</drawSize>
         </headGraphic>
         <headGraphicHaired>
-          <texPath>Things/Automatroid/seperated/ladyHead_Bald</texPath>
+          <texPath>Things/Synthroid/head_clean</texPath>
           <graphicClass>Graphic_Multi</graphicClass>
           <drawSize>1.4</drawSize>
         </headGraphicHaired>

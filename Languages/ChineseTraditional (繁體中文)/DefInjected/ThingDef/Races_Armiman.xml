@@ -4,7 +4,7 @@
   <!-- EN: Armiman -->
   <DMS_Mech_Armiman.label>軍人</DMS_Mech_Armiman.label>
   <!-- EN: A technically very mature military combat robot, capable of being compatible with most human equipment and operating heavy weapons. Although this technology was leaked from the colonial fleet, strangely they did not seem to invest it in colonial activities. -->
-  <DMS_Mech_Armiman.description>一種技術上十分成熟的量產型軍用合成人，能夠兼容大部分人類裝備並操作重型武器。 雖然該技術是從殖民艦隊所流出的但奇怪的是他們似乎並沒有將其投入在當前的殖民活動中。</DMS_Mech_Armiman.description>
+  <DMS_Mech_Armiman.description>一種技術上十分成熟的量產型軍用合成人，並且也是在第三次世界大戰中由北大西洋公約組織所使用的主力機兵型號，能夠兼容大部分人類裝備並操作重型武器。雖然殖民艦隊普遍會將這項技術外銷給具備足夠相關技術儲備的當地國家與陣營，但奇怪的是他們並沒有將類似的技術投入在當下殖民活動中的紀錄。</DMS_Mech_Armiman.description>
   <!-- EN: head -->
   <DMS_Mech_Armiman.tools.head.label>頭</DMS_Mech_Armiman.tools.head.label>
   <!-- EN: left fist -->

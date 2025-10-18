@@ -105,7 +105,7 @@
       <body>DMS_Synthroid</body>
       <nameGenerator>DMS_VanguardMechHeavy</nameGenerator>
       <baseBodySize>2.0</baseBodySize>
-      <baseHealthScale>1.3</baseHealthScale>
+      <baseHealthScale>1.5</baseHealthScale>
       <mechWeightClass>Heavy</mechWeightClass>
       <mechFixedSkillLevel>10</mechFixedSkillLevel>
       <mechEnabledWorkTypes>
@@ -152,7 +152,7 @@
 
   <PawnKindDef ParentName="BaseAutomatroidKind">
     <defName>DMS_Mech_Armiman</defName>
-    <label>Army man</label>
+    <label>Armiman</label>
     <race>DMS_Mech_Armiman</race>
     <isFighter>true</isFighter>
     <combatPower>50</combatPower>
@@ -176,7 +176,7 @@
     </lifeStages>
     <weaponMoney>3000~4000</weaponMoney>
     <weaponTags>
-      <li>DMS_MechWeaponHeavy</li>
+      <li>DMS_MechWeaponMedium</li>
     </weaponTags>
   </PawnKindDef>
 

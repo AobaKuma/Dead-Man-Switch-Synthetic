@@ -313,7 +313,12 @@
           <graphicClass>Graphic_Multi</graphicClass>
           <drawSize>1.4</drawSize>
         </headGraphic>
-        <headOffset>(0,0,-0.05)</headOffset>
+        <headGraphicHaired>
+          <texPath>Things/Synthroid/head_clean</texPath>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.4</drawSize>
+        </headGraphicHaired>
+        <headOffset>(0,0,0)</headOffset>
       </li>
       <li Class="Fortified.MechWeaponExtension">
         <EnableWeaponFilter>false</EnableWeaponFilter>
@@ -374,7 +379,7 @@
       <DMS_Mech_BigSister>1</DMS_Mech_BigSister>
     </products>
     <researchPrerequisite>DMS_Hybrid</researchPrerequisite>
-    <gestationCycles>3</gestationCycles>
+    <gestationCycles>5</gestationCycles>
     <descriptionHyperlinks>
       <ThingDef>DMS_Mech_BigSister</ThingDef>
     </descriptionHyperlinks>
@@ -382,15 +387,15 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Tungsteel</li>
+            <li>Artifuscle</li>
           </thingDefs>
         </filter>
-        <count>100</count>
+        <count>160</count>
       </li>
       <li>
         <filter>
           <thingDefs>
-            <li>Artifuscle</li>
+            <li>Tungsteel</li>
           </thingDefs>
         </filter>
         <count>100</count>

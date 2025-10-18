@@ -4,7 +4,7 @@
   <!-- EN: Synthetic Constructor -->
   <DMS_MechGestatorSynthetic.label>合成培育艙</DMS_MechGestatorSynthetic.label>
   <!-- EN: A massive piece of industrial equipment used to assemble Synthetic forms. -->
-  <DMS_MechGestatorSynthetic.description>一種用於培育生物合成機械體的人工艙</DMS_MechGestatorSynthetic.description>
+  <DMS_MechGestatorSynthetic.description>一種用於培育合成機兵的人工艙，具備類似於羊膜生物的培育環境以在人工環境下使得人工合成的聚合物胚胎與金屬原料能夠正常的發育為合成人的骨架與身體器官，雖然整個過程高度生物性但合成機兵本身並不具備生物定義上的生育功能。</DMS_MechGestatorSynthetic.description>
   
   <!-- EN: Mote -->
   <DMS_SyntheticConstructorCycleComplete.label>完成</DMS_SyntheticConstructorCycleComplete.label>
