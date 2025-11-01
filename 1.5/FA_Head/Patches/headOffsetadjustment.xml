@@ -8,7 +8,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/PawnRenderTreeDef[defName="DMS_BigSister"]/root/children/li[4]/drawData/defaultData/offset</xpath>
+    <xpath>Defs/PawnRenderTreeDef[defName="DMS_BigSister"]/root/children/li[5]/drawData/defaultData/offset</xpath>
     <value>
       <offset>(0,0,0)</offset>
     </value>
