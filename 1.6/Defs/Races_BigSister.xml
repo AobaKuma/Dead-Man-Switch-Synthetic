@@ -195,7 +195,7 @@
     <uiIconPath>Things/Synthroid/BigSister/icon</uiIconPath>
     <statBases>
       <MarketValue>1500</MarketValue>
-      <MoveSpeed>6.5</MoveSpeed>
+      <MoveSpeed>5.5</MoveSpeed>
       <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
       <ArmorRating_Heat>1.2</ArmorRating_Heat>

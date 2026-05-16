@@ -66,6 +66,17 @@
 					<NightVisionEfficiency>1.25</NightVisionEfficiency>
 				</value>
 			</li>
+			
+			<li Class="PatchOperationAddModExtension">
+				<xpath>Defs/ThingDef[defName="DMS_Mech_BigSister"]</xpath>
+				<value>
+					<li Class="CombatExtended.RacePropertiesExtensionCE">
+						<bodyShape>Humanoid</bodyShape>
+						<vertScale>1.15</vertScale>
+					</li>
+				</value>
+			</li>
+			
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="DMS_Mech_BigSister"]/statBases/ArmorRating_Blunt</xpath>
 				<value>
