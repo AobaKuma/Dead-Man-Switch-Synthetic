@@ -16,4 +16,16 @@
     <li IfModActive="Nals.RealisticBody,Nals.CompatibleBody2">1.6/Realistic_Body</li>
     <li IfModActive="WRK.THIGAPPE">1.6/Realistic_Body/THIGAPPE</li>
   </v1.6>
+  <!--
+    1.7 沿用 1.6 的內容（本模組沒有 C# 組件，不需要 1.7 專用資料夾）。
+    1.7 reuses the 1.6 content (this mod has no assemblies, so it needs no 1.7-specific folder).
+  -->
+  <v1.7>
+    <li>/</li>
+    <li>1.6</li>
+    <li IfModActive="CETeam.CombatExtended,CETeam.CombatExtended_steam">1.6/CE</li>
+    <li IfModActive="Nals.FacialAnimation,Nals.FacialAnimation_steam">1.6/FA_Head</li>
+    <li IfModActive="Nals.RealisticBody,Nals.CompatibleBody2">1.6/Realistic_Body</li>
+    <li IfModActive="WRK.THIGAPPE">1.6/Realistic_Body/THIGAPPE</li>
+  </v1.7>
 </loadFolders>
